@@ -1,4 +1,4 @@
-x1 = [0:0.01:2*pi];
+x1 = [0:0.01:2*pi]; # [from : increase by : to]
 y1 = sin(x1);
 figure(1);
 plot(x1, y1), xlabel('x'), ylabel('sinx'), title('plot1'), grid on, axis equal
