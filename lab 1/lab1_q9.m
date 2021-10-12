@@ -4,6 +4,8 @@ disp(C)
 F = funcCtoF(C);
 disp('Farenheit :')
 disp(F)
+
+
 function y = funcCtoF(x)
     y = (9/5)*x + 32;
 end

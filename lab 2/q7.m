@@ -5,7 +5,7 @@ b = [2.9; 3.9];
 X = lineq(A, b);
 disp(X);
 function X = lineq(A,b)
-  m = size(A, 1);
+  m = size(A, 1); # m = size(X,dim) returns the size of the dimension of X specified by scalar dim.
   n = size(A, 2);
   if m == n
     if cond(A) > 1e14
